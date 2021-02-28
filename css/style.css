@@ -83,7 +83,7 @@ body {
 }
 
 .modal-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
   line-height: 1, 87;
@@ -101,18 +101,18 @@ body {
 
 /*========= FEATURES */
 .features-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
   line-height: 1, 15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--accent-color);
 }
 
 .features-text {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1, 71;
@@ -123,26 +123,26 @@ body {
 
 /*========== ABOUT */
 .about-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
   line-height: 1, 16;
   /*text-align: center;*/
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--accent-color);
 }
 
 /*=========== OUR-TEAM*/
 .team-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
   line-height: 1, 16;
   /*text-align: center;*/
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--accent-color);
 }
 
 .footer {
@@ -154,7 +154,7 @@ body {
 }
 
 .address-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1, 71;
@@ -164,7 +164,7 @@ body {
 }
 
 .contact-footer {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1, 71;
@@ -173,18 +173,20 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/*==================PORTFOLIO=================*/
 /*========== FILTERS portfolio*/
-.filters-link {
+.filters {
   font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
 
   color: var(--accent-color);
 }
 
-.filters-link:hover,
-.filters-link:focus {
+.filters-list-item:hover,
+.filters-list-item:focus {
   color: #2196f3;
 }

@@ -175,18 +175,12 @@ body {
 
 /*==================PORTFOLIO=================*/
 /*========== FILTERS portfolio*/
-.filters {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 62;
-  /*text-align: center;*/
-  letter-spacing: 0.03em;
-
-  color: var(--accent-color);
-}
-
 .filters-list-item:hover,
 .filters-list-item:focus {
+  color: #2196f3;
+}
+
+.projects-link:hover,
+.projects-link:focus {
   color: #2196f3;
 }

@@ -23,7 +23,7 @@ body {
 
 /* ======== HEADER */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -37,13 +37,13 @@ body {
 }
 
 .nav-link link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 15;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--accent-color);
 }
 
 .nav-link:hover,
@@ -52,13 +52,13 @@ body {
 }
 
 .contact-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 15;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 .contact-link:hover,
@@ -72,7 +72,7 @@ body {
 }
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
@@ -171,4 +171,20 @@ body {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*========== FILTERS portfolio*/
+.filters-link {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--accent-color);
+}
+
+.filters-link:hover,
+.filters-link:focus {
+  color: #2196f3;
 }

@@ -22,6 +22,7 @@ body {
 }
 
 /* ======== HEADER */
+/* logo */
 .logo {
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -36,6 +37,14 @@ body {
   color: #2196f3;
 }
 
+.logo-studio-header {
+  color: #000000;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+/* nav */
 .nav-link link {
   font-family: var(--main-font);
   font-weight: 500;
@@ -48,6 +57,10 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
+  color: #2196f3;
+}
+
+.active-link {
   color: #2196f3;
 }
 
@@ -145,12 +158,9 @@ body {
   color: var(--accent-color);
 }
 
+/* ================FOOTER========= */
 .footer {
   background: #2f303a;
-}
-
-.logo-studio {
-  color: #ffffff;
 }
 
 .address-link {
@@ -180,6 +190,7 @@ body {
   color: #2196f3;
 }
 
+/* ========= PROJECTS */
 .projects-link:hover,
 .projects-link:focus {
   color: #2196f3;

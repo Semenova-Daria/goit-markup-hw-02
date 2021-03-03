@@ -27,7 +27,7 @@ body {
   font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 
   color: #000000;
@@ -49,10 +49,20 @@ body {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 15;
+  line-height: 1.15;
   letter-spacing: 0.02em;
 
   color: var(--accent-color);
+}
+
+.nav-list {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
 }
 
 .nav-link:hover,
@@ -68,7 +78,7 @@ body {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 15;
+  line-height: 1.15;
   letter-spacing: 0.02em;
 
   color: var(--secondary-color);
@@ -88,7 +98,7 @@ body {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -99,9 +109,8 @@ body {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -117,7 +126,7 @@ body {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 15;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -128,7 +137,7 @@ body {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -139,7 +148,7 @@ body {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   /*text-align: center;*/
   letter-spacing: 0.03em;
 
@@ -151,11 +160,33 @@ body {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   /*text-align: center;*/
   letter-spacing: 0.03em;
 
   color: var(--accent-color);
+}
+
+.team-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+
+.team-it {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-color);
 }
 
 /* ================FOOTER========= */
@@ -167,7 +198,7 @@ body {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -177,7 +208,7 @@ body {
   font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -185,12 +216,44 @@ body {
 
 /*==================PORTFOLIO=================*/
 /*========== FILTERS portfolio*/
+.filters-list-item {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
 .filters-list-item:hover,
 .filters-list-item:focus {
   color: #2196f3;
 }
 
 /* ========= PROJECTS */
+.projects-name {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2.11;
+  letter-spacing: 0.06em;
+
+  color: var(--accent-color);
+}
+
+.projects-it {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-color);
+}
 .projects-link:hover,
 .projects-link:focus {
   color: #2196f3;
